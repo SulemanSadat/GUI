@@ -1,0 +1,19 @@
+<MyRoot>:
+
+    random_label: random_label
+
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text:"Sayed Suleman"A
+            font_size: 40
+            color: 0.33, 0.45, 0
+        Label:
+            id: random_label
+            text: "-"
+            font_size: 64
+        Button:
+            text: "Generate"
+            font_size: 32
+            size: 100, 50
+            on_press: root.generate_number()
